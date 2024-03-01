@@ -1,0 +1,30 @@
+body {
+    background-color: beige;
+    
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+#form_action {
+    background-color: #f9f9f9;
+    padding: 40px 30px;
+    margin: 50px;
+    border: 2px solid black;
+    width: 400px;
+    align-items: center;
+}
+h2 {
+    font-size: 20px;
+    font-family: cursive;
+    color: blue;
+    align-items: center;
+    margin: 25px;
+}
+label {
+    padding: 15px;
+    font-size: 20px;
+    margin: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
