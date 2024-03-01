@@ -16,3 +16,13 @@ header.style.color = 'white';
 
 let heading = document.querySelector('h2');
 heading.style.color = 'green'
+
+// creating an Elements
+
+const newParagragh =document.createElement('p')
+// setting the text for the element.
+newParagragh.textContent = 'This is my work'
+
+// appending the new paragraph to the body
+
+document.body.appendChild(newParagragh);
