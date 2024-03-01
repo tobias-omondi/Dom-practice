@@ -1,6 +1,5 @@
 body {
     background-color: beige;
-    
         height: 100%;
         margin: 0;
         display: flex;
@@ -8,12 +7,13 @@ body {
         justify-content: center;
 }
 #form_action {
-    background-color: #f9f9f9;
+    background-color: #d8471b;
     padding: 40px 30px;
     margin: 50px;
     border: 2px solid black;
     width: 400px;
     align-items: center;
+    justify-content: center;
 }
 h2 {
     font-size: 20px;
@@ -23,8 +23,13 @@ h2 {
     margin: 25px;
 }
 label {
-    padding: 15px;
-    font-size: 20px;
+    padding: 5px;
+    font-size: 12px;
     margin: 80px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input {
+    padding: 6px;
+    margin: 1px;
+    border: 2px solid orange;
 }
